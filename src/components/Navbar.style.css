@@ -1,0 +1,21 @@
+.nav-style{
+    background-color: rgb(153, 149, 149)!important;
+    /* background: linear-gradient(black,rgb(184, 182, 182)); */
+    color: white;
+   
+}
+.icon-txt-style{
+    color: white;
+    font-weight: 900;
+}
+.icon-txt-style:hover{
+    color: white;
+    font-weight: 900;
+}
+.txt-style{
+    font-weight: 600!important;
+    color: white!important;
+}
+.txt-style:hover{
+   color: rgb(126, 231, 245)!important;
+}

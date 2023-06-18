@@ -1,0 +1,21 @@
+.my-style{
+    background-color: black;
+    border: none;
+    font-weight: 600;
+    transition: 1s!important;
+}
+.my-style:hover{
+    background: linear-gradient(rgb(0, 11, 15),rgb(0, 1, 2),rgb(166, 231, 240));
+    color: aqua;
+}
+
+.card-style:hover{
+    border: 1px solid rgb(92, 225, 243);
+    height: auto;
+    transition: 0.8s;
+    box-shadow: 1px 1px 15px 15px rgb(168, 167, 167);
+}
+.job-sec-bg{
+    background:linear-gradient(rgb(184, 182, 182), black,rgb(184, 181, 181),black);
+    
+}

@@ -1,0 +1,265 @@
+
+.main-bg-style {
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/807/722/desktop-wallpaper-geometric-cubes-in-black-black-geometry-android-thumbnail.jpg);
+  height: 100vh;
+  position: relative;
+  /* background-size: cover; */
+}
+.cont-bg-style {
+  background: linear-gradient(black, rgb(24, 24, 24));
+  height: 60vh;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+.cont1-bg-style {
+  background: linear-gradient(black, white);
+  height: 50vh;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+.cont2-bg-style {
+  background: linear-gradient(black, black);
+  height: 40vh;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+.box1 {
+  height: auto;
+  width: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute !important;
+  z-index: 100;
+  left: 130px;
+  top: 160px;
+  overflow: hidden;
+  color: white;
+  text-transform: uppercase !important;
+}
+#text {
+  position: relative;
+  font-weight: 700;
+  left: -100%;
+  animation: anim1 2s forwards 0.6s;
+  z-index: 200;
+}
+@keyframes anim1 {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+#para-txt {
+  position: relative;
+  font-weight: 500;
+  left: -100%;
+  animation: anim2 2.5s forwards 0.8s;
+}
+
+@keyframes anim2 {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+.img-box {
+  position: relative;
+  z-index: 100;
+}
+
+.box2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(rgb(95, 94, 94), rgb(0, 0, 0));
+  bottom: -100%;
+  left: 50%;
+  border-radius: 50%;
+  z-index: 200;
+  animation: anim3 2.5s forwards 0.6s;
+  overflow-y: hidden;
+}
+@keyframes anim3 {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 5%;
+  }
+}
+
+.box3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(rgb(95, 94, 94), rgb(0, 0, 0));
+  bottom: -100%;
+  left: 60%;
+  border-radius: 50%;
+  z-index: 200;
+  animation: anim4 2.5s forwards 0.9s;
+  overflow-y: hidden;
+}
+@keyframes anim4 {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 5%;
+  }
+}
+
+.box4 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(rgb(95, 94, 94), rgb(0, 0, 0));
+  bottom: -100%;
+  left: 71%;
+  border-radius: 50%;
+  z-index: 200;
+  animation: anim5 2.5s forwards 1.2s;
+  overflow-y: hidden;
+}
+@keyframes anim5 {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 5%;
+  }
+}
+
+.box5 {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(rgb(95, 94, 94), rgb(0, 0, 0));
+  bottom: -100%;
+  left: 85%;
+  border-radius: 50%;
+  z-index: 200;
+  animation: anim6 2.5s forwards 1.5s;
+  overflow-y: hidden;
+}
+@keyframes anim6 {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 5%;
+  }
+}
+
+
+@media (max-width: 896px) {
+  .img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .img-box {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+  }
+  .box2 {
+    left: 60%;
+    height: 30px;
+    width: 30px;
+  }
+  .box3 {
+    left: 67%;
+    height: 40px;
+    width: 40px;
+  }
+  .box4 {
+    left: 75%;
+    height: 60px;
+    width: 60px;
+  }
+  .box5 {
+    left: 85%;
+    height: 80px;
+    width: 80px;
+  }
+
+  .box1 {
+    left: 100px;
+    top: 130px;
+  }
+
+  #text {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.3rem;
+    left: -100%;
+    animation: anim1 2s forwards 0.6s;
+  }
+  @keyframes anim1 {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+
+  
+#para-txt {
+    position: relative;
+    font-weight: 200;
+    font-size: .8rem;
+    left: -100%;
+    animation: anim2 2.5s forwards 0.8s;
+  }
+  
+  @keyframes anim2 {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+}
+@media (max-width: 414px) {
+  .img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .img-box {
+    position: absolute;
+    top: 30%;
+  }
+  .box1 {
+    left: 80px;
+    top: 130px;
+  }
+  .box2 {
+    left: 10%;
+    height: 50px;
+    width: 50px;
+  }
+  .box3 {
+    left: 25%;
+    height: 70px;
+    width: 70px;
+  }
+  .box4 {
+    left: 45%;
+    height: 90px;
+    width: 90px;
+  }
+  .box5 {
+    left: 70%;
+    height: 110px;
+    width: 110px;
+  }
+}
